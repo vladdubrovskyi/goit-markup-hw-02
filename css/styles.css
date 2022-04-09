@@ -1,6 +1,14 @@
 :root {
     --accent-color: #2196F3;
     --main-color: #212121;
+    --text-content-color: #757575;
+    --main-background-color: #ffffff;
+    --secondary-background-color: #2F303A;
+    --button-accent-color: #188CE8;
+    --additional-background-color: #F5F4FA;
+    --address-link-color: rgba(255, 255, 255, 0.6);
+
+
 
 
 }
@@ -52,7 +60,7 @@ color: var(--accent-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--text-content-color);
 }
 
 .contacts-item:hover,
@@ -62,7 +70,7 @@ color: var(--accent-color);
 
 /* -------------------Hero--------------------- */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color);
 }
 
 .hero-title {
@@ -72,7 +80,7 @@ color: var(--accent-color);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--main-background-color);
 }
 
 .hero-button {
@@ -84,14 +92,14 @@ color: var(--accent-color);
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--main-background-color);
     background-color: var(--accent-color);
     cursor: pointer;  
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color:#188CE8
+    background-color:var(--button-accent-color)
 }
 
 /* ------------------Advantages---------------------- */
@@ -119,7 +127,7 @@ text-transform: uppercase;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-content-color);
 }
 /* -----------------Activity----------------------- */
 .activity-title{
@@ -131,7 +139,7 @@ letter-spacing: 0.03em;
 
 /* -----------------Team----------------------- */
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--additional-background-color);
 }
 
 .team-title {
@@ -142,7 +150,7 @@ letter-spacing: 0.03em;
 }
 
 .team-item {
-    background-color: #ffffff;
+    background-color: var(--main-background-color);
 }
 
 .team-item-title {
@@ -158,7 +166,7 @@ letter-spacing: 0.03em;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-content-color);
 }
 
 /* -------------------------Portfolio------------------------ */
@@ -170,13 +178,13 @@ letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
-    background-color: #F5F4FA;
+    background-color: var(--additional-background-color);
     cursor: pointer;
 }
 
 .portfolio-navigation-item .button:hover,
 .portfolio-navigation-item .button:focus {
-    color: #ffffff;
+    color: var(--main-background-color);
     background-color: var(--accent-color);
 }
 
@@ -191,7 +199,7 @@ letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--text-content-color);
 }
 
 /* -----------------Footer----------------------- */
@@ -200,7 +208,7 @@ color: #757575;
 }
 
 .logo-part-footer {
-    color: #ffffff;
+    color: var(--main-background-color);
 }
 
 .address .link {
@@ -208,18 +216,18 @@ color: #757575;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em; 
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--address-link-color);
 }
 
 .address .link:hover,
 .address .link:focus {
-    color: #2196F3
+    color: var(--accent-color)
 } 
 .address .address-item {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--main-background-color);
 }
 
