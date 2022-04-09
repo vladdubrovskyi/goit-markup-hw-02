@@ -1,9 +1,11 @@
 :root {
     --accent-color: #2196F3;
+    --main-color: #212121;
+
 
 }
 body {font-family: Roboto, sans-serif;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .link {
@@ -25,7 +27,7 @@ body {font-family: Roboto, sans-serif;
 }
 
 .logo-part {
-  color: #212121;  
+  color: var(--main-color);  
 }
 
 .navigation .link {
@@ -33,8 +35,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
-cursor: pointer;
+color: var(--main-color);
 }
 
 .navigation-item:hover,
@@ -52,7 +53,6 @@ color: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    cursor: pointer
 }
 
 .contacts-item:hover,
@@ -85,7 +85,8 @@ color: var(--accent-color);
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background-color: var(--accent-color);  
+    background-color: var(--accent-color);
+    cursor: pointer;  
 }
 
 .hero-button:hover,
@@ -168,12 +169,13 @@ letter-spacing: 0.03em;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
     background-color: #F5F4FA;
     cursor: pointer;
 }
 
-.portfolio-navigation-item .button:active {
+.portfolio-navigation-item .button:hover,
+.portfolio-navigation-item .button:focus {
     color: #ffffff;
     background-color: var(--accent-color);
 }
@@ -182,7 +184,7 @@ letter-spacing: 0.03em;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .portfolio-list-text {
