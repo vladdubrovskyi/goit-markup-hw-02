@@ -38,6 +38,10 @@ cursor: pointer;
 color: #2196F3;
 }
 
+.current {
+    color: #2196F3;
+}
+
 .contacts .contacts-item {
     font-family: 'Roboto';
     font-weight: 500;
@@ -53,11 +57,110 @@ color: #2196F3;
     color: #2196F3;
 }
 
-/* ---------------------------------------- */
+/* -------------------Hero--------------------- */
+.hero {
+    background-color: #2F303A;
+}
 
-/* ---------------------------------------- */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
-/* ---------------------------------------- */
+.hero-button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;  
+}
+
+/* ------------------Advantages---------------------- */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.advantages-item-title {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.advantages-item-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* -----------------Activity----------------------- */
+.activity-title{
+font-size: 36px;
+line-height:1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/* -----------------Team----------------------- */
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-item-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
 
 /* -----------------Footer----------------------- */
 .footer {
