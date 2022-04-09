@@ -1,4 +1,9 @@
+:root {
+    --accent-color: #2196F3;
+
+}
 body {font-family: Roboto, sans-serif;
+    color: #212121;
 }
 
 .link {
@@ -16,15 +21,14 @@ body {font-family: Roboto, sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo-part {
-  color: black;  
+  color: #212121;  
 }
 
-.navigation {
-font-family: 'Roboto';
+.navigation .link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -35,15 +39,14 @@ cursor: pointer;
 
 .navigation-item:hover,
 .navigation-item:focus {
-color: #2196F3;
+color: var(--accent-color);
 }
 
-.current {
-    color: #2196F3;
+.navigation .navigation-item.current {
+    color: var(--accent-color);
 }
 
 .contacts .contacts-item {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -54,7 +57,7 @@ color: #2196F3;
 
 .contacts-item:hover,
 .contacts-item:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* -------------------Hero--------------------- */
@@ -73,7 +76,7 @@ color: #2196F3;
 }
 
 .hero-button {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -82,7 +85,12 @@ color: #2196F3;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background-color: #2196F3;  
+    background-color: var(--accent-color);  
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color:#188CE8
 }
 
 /* ------------------Advantages---------------------- */
@@ -104,13 +112,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
 }
 
 .advantages-item-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -122,7 +126,6 @@ font-size: 36px;
 line-height:1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
 }
 
 /* -----------------Team----------------------- */
@@ -135,7 +138,6 @@ color: #212121;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .team-item {
@@ -148,7 +150,6 @@ color: #212121;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .team-item-text {
@@ -159,8 +160,37 @@ color: #212121;
     color: #757575;
 }
 
+/* -------------------------Portfolio------------------------ */
+.portfolio-navigation-item .button {
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
 
+.portfolio-navigation-item .button:active {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
 
+.portfolio-list-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-list-text {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}
 
 /* -----------------Footer----------------------- */
 .footer {
@@ -172,20 +202,22 @@ color: #212121;
 }
 
 .address .link {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em; 
     color: rgba(255, 255, 255, 0.6);
 }
+
+.address .link:hover,
+.address .link:focus {
+    color: #2196F3
+} 
 .address .address-item {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
